@@ -1,20 +1,36 @@
 {
   "name": "react",
   "version": "0.0.0",
+  "homepage": "https://parthaa.github.io/itunes-search",
   "private": true,
   "dependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
-    "jsonp":"*",
-    "react-audio-player": "*"
+    "jsonp": "*",
+    "react-audio-player": "*",
+    "gh-pages": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

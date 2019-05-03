@@ -59,7 +59,6 @@ class App extends Component {
     return (
 
       <div>
-        <Hello name={this.state.name} />
         {this.renderSongSnippet()}
         <div> 
         <input type="text" onChange={this.searchSongHandler} />
