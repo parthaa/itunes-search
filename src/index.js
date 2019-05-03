@@ -19,9 +19,9 @@ class App extends Component {
   }
 
   searchSong = (song) => {
-    const testURL = 'https://itunes.apple.com/search?media=music&term=' + song;
+    const queryUrl = 'https://itunes.apple.com/search?media=music&term=' + song;
   
-    jsonp(testURL, null, (err, data) => {
+    jsonp(queryUrl, null, (err, data) => {
       if (err) {
         console.error(err.message);
       } else {
@@ -53,11 +53,13 @@ class App extends Component {
 
   render() {
     const songs = this.state.songs.map(song => {
-      return <div onClick={this.selectedToPlay.bind(this, song)} ><pre>{song.trackCensoredName}</pre>
-      </div>;
+      return (
+        <div onClick={this.selectedToPlay.bind(this, song)} >
+          <pre>{song.trackCensoredName}</pre>
+        </div>
+      );
     });
     return (
-
       <div>
         {this.renderSongSnippet()}
         <div> 
