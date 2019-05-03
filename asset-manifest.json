@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/itunes-search/static/css/main.170f56e8.chunk.css",
+    "main.js": "/itunes-search/static/js/main.c322ebd5.chunk.js",
+    "main.js.map": "/itunes-search/static/js/main.c322ebd5.chunk.js.map",
+    "runtime~main.js": "/itunes-search/static/js/runtime~main.a2918ef2.js",
+    "runtime~main.js.map": "/itunes-search/static/js/runtime~main.a2918ef2.js.map",
+    "static/js/2.eb63f94b.chunk.js": "/itunes-search/static/js/2.eb63f94b.chunk.js",
+    "static/js/2.eb63f94b.chunk.js.map": "/itunes-search/static/js/2.eb63f94b.chunk.js.map",
+    "index.html": "/itunes-search/index.html",
+    "precache-manifest.73beddd4ab8db266a14f54f704fb4715.js": "/itunes-search/precache-manifest.73beddd4ab8db266a14f54f704fb4715.js",
+    "service-worker.js": "/itunes-search/service-worker.js",
+    "static/css/main.170f56e8.chunk.css.map": "/itunes-search/static/css/main.170f56e8.chunk.css.map"
+  }
+}
